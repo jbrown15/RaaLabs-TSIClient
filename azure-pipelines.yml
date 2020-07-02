@@ -35,7 +35,7 @@ steps:
 
 - script: |
     python setup.py sdist
-  displayName: 'Artifact creationn'
+  displayName: 'Artifact creation'
   
 - task: CopyFiles@2
   inputs:
