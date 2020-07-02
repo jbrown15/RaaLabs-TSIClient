@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'Self-Hosted-Ubuntu-Agent-UAT'
+  vmImage: 'ubuntu-latest'
 strategy:
   matrix:
     Python36:
