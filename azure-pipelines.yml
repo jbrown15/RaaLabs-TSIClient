@@ -27,7 +27,7 @@ steps:
 - script: |
     pip install pytest pytest-azurepipelines
     python -m pytest -v --cov=./TSIClient --cov-report xml
-  displayName: 'pytest'
+  displayName: 'pytestj'
 
 - script: |
     bash <(curl -s https://codecov.io/bash)
