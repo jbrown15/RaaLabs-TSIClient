@@ -116,7 +116,7 @@ class TSIClient():
     def _getQueryString(self, useWarmStore=None):
         """Creates the querystring for an api request.
         
-        Can be used in all api requests in TSIClient.
+        Can be used in all api requests in TSIClient JB.
 
         Args:
             useWarmStore (bool): A boolean to indicate the storeType. Defaults to None,
